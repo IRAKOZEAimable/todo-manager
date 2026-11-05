@@ -3,7 +3,7 @@ import Login from "./components/Login"
 import Register from "./components/Register"
 
 const App = () => {
-  const [isLogin, setIsLogin] = useState<boolean>(false)
+  const [isLogin, setIsLogin] = useState<boolean>(true)
 
   return (
     <div className="min-h-screen bg-white flex items-center justify-center px-4">
